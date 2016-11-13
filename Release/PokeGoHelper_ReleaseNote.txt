@@ -1,0 +1,125 @@
+PokeGoHelper
+=============
+Helper for Pokemon Go (Cheat) & Battery Saver
+
+What is real
+- Account is real (either Google account / Pokemon Trainer club account)
+
+What is fake
+- Device Info is fake.
+- Location is fake
+
+NO ROOT Required
+NO NEED to run official Pokemon Go App (standalone app) 
+
+Instruction.
+1. MUST SET LOCATION FIRST !!! (tap a location then click "Set")
+2. Input your Pokemon Trainer Club (PTC) or Google Credential 
+3. Login ! and have fun 
+
+======================================================================
+Release version: 0.0.8 alpha
+Date : 2016/11/12
+======================================================================
+UPDATE API for Current Pokemon Go version:0.45.0 
+
+Fixes 
+1. Failed capture pokemon when pokemon inventory full without message. 
+2. Crash encounter when inventory does no have pokeball (but still have
+power ball). 
+3. Some crashes occur when update pokestop status 
+
+Sorry for 0.0.7 got issue which cannot run 
+
+
+======================================================================
+Release version: 0.0.7 alpha
+Date : 2016/11/12
+======================================================================
+UPDATE API for Current Pokemon Go version:0.45.0 
+
+
+======================================================================
+Release version: 0.0.6 alpha
+Date : 2016/10/07
+======================================================================
+- Find bug for map issue for showing pokemon & pokestop
+- Add image for 'lured' pokestop type and pokestop name 
+- update pokestops detail (has lure) on background
+
+
+======================================================================
+Release version: 0.0.5 alpha (not tested)
+======================================================================
+Just refactor main layout to save more space for other button
+- catchable pokemon now can be tap to capture thru map
+- add back user profile to check for user level & experience (but still not sync well)
+
+
+======================================================================
+Release version: 0.0,4 alpha
+======================================================================
+What's New
+Add vibration when detected new catchable pokemon
+vibration can be disable from settings page
+
+
+Fixed
+some crash due to Toast Message
+
+======================================================================
+Release version: 0.0.3 alpha
+======================================================================
+What's New
+Add Google Map for select location
+
+Bug
+Fix bug that cannot set negative value for location
+
+
+======================================================================
+Release version: 0.0.2 alpha 
+======================================================================
+What's New
+use Google Map as interactive UI
+1. Google Map required Play Service Issue
+    a. Need to update new google play service if map show blank
+
+2. Add Map for move around
+    a. Tap map to move  (speed at 4.5km/h)
+    b. Tap Pokestop to loot (auto loot if the pokestop is lootable)
+    c. using the bottom right button to catch any visible pokemon
+	
+Known Issue 
+Login : Sometime login may failed due to time out.
+Solution . need retry few time
+
+
+Map: Map and Button may not sync
+
+Catch Pokemon:
+ Issue 1. Sometime failed to encounter pokemon (return null)
+ Solution: Just ignore that pokemon.
+
+ Issue 2: Sometime catch process return error "400"
+ Solution: just ignore the pokemon , (may retry after 1mins )
+
+Other:
+ Issue : keep failure on ANY action.
+ Solution: exit the app and relogin again
+
+
+
+
+======================================================================
+Release version : 0.0.1 Alpha
+1. Detect Catchable Pokemon for catch
+2. Detect lootable Pokestop for loot
+3. View Inventories for Pokemon
+ i. support sort by CP, # and IV
+ ii. support Power UP, Evolve and Transfer
+4. View Inventories for Common Item
+ i. support Drop Item Only
+5. Auto Level up for collect reward when App start (check for experience)
+
+
