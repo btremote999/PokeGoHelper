@@ -10,33 +10,104 @@ What is fake
 - Location is fake
 
 NO ROOT Required
-NO NEED to run official Pokemon Go App (standalone app) 
+NO NEED to run official Pokemon Go App (standalone app)
 
 Instruction.
 1. MUST SET LOCATION FIRST !!! (tap a location then click "Set")
-2. Input your Pokemon Trainer Club (PTC) or Google Credential 
-3. Login ! and have fun 
+2. Input your Pokemon Trainer Club (PTC) or Google Credential
+3. Login ! and have fun
+
+Image Available at:  goo.gl / TB1ZZj
+
+======================================================================
+Release version: 0.0.11 alpha (hot fix)
+Date : 2016/11/19
+======================================================================
+What's New
+Opps nothing new. Just try to fix a much bugs a possible.
+
+Fixes (some) such as
+1. drop item.
+2. loot pokestop failure and crash
+3. catch pokemon too fast and crash
+4. set location (move) then cause the location corrupt (most of the player encounter) very very sorry.
+
+Major Issue (My Mistake)!!! -> Captcha Challenge forgot to check in previous version!
+When a Captcha Challenge <- ALL action will failed.
+Solution: open Pokemon Go official app, and answer the question of screen. Once Answer correct.
+Then you can continue switch back using POKEGOHELPER.
+
+THANKS for people that provide detail explanation how to use the app in YouTube. IMPRESSIVE.
+
+Egg Incubation to be still not ready, due to captcha challenge make me though the app not working again.
+
+
+======================================================================
+Release version: 0.0.10 alpha
+Date : 2016/11/19
+======================================================================
+What's New
+
+Speed setting
+- Enable setting with url that support to check time to time check for new version.
+- But still need to click on the url to open browser drop box and check any new apk available.
+
+
+Bug Fixed
+1. Logic Error for catchable pokemon, now should be more pokemon for u to catch.
+2. Vibration does not work according
+3. Crash happen when input more than you avaialbel quantitity item.
+4. Profile page crash due to failed to get information from api.
+
+
+Known Issue:
+1. "Choose Start Locaction" display Blue Screen
+ - Cause: You are at the middle of the sea Location (0,0), cause app can not get your last known location.
+ - Solution : try set location manually with zoom out (-) first and click again.
+
+2. Encounter Error 200:
+ Cause: The Api still cannot get the correct response, and no good solution for the moment
+ Solution: just try to catch another pokemon and retry it back later.
+
+
+PS:
+ Sorry can not make the Egg Incubation to be ready yet.
+ Recently was busy on other stuff like setup a new Ad Network,
+ (AdMod earning is almost 0 without any click.)
+
+ If you like the app, feel free to view some ads to support me. Thanks.
+
+
+======================================================================
+Release version: 0.0.9 alpha
+Date : 2016/11/13
+======================================================================
+Fix crashs on
+1. locale issue when location's decimal point as "," rather than "." format for certain country
+2. didn't set the location during login
+3. remove item without valid input
+
 
 ======================================================================
 Release version: 0.0.8 alpha
 Date : 2016/11/12
 ======================================================================
-UPDATE API for Current Pokemon Go version:0.45.0 
+UPDATE API for Current Pokemon Go version:0.45.0
 
-Fixes 
-1. Failed capture pokemon when pokemon inventory full without message. 
+Fixes
+1. Failed capture pokemon when pokemon inventory full without message.
 2. Crash encounter when inventory does no have pokeball (but still have
-power ball). 
-3. Some crashes occur when update pokestop status 
+power ball).
+3. Some crashes occur when update pokestop status
 
-Sorry for 0.0.7 got issue which cannot run 
+Sorry for 0.0.7 got issue which cannot run
 
 
 ======================================================================
 Release version: 0.0.7 alpha
 Date : 2016/11/12
 ======================================================================
-UPDATE API for Current Pokemon Go version:0.45.0 
+UPDATE API for Current Pokemon Go version:0.45.0
 
 
 ======================================================================
@@ -44,7 +115,7 @@ Release version: 0.0.6 alpha
 Date : 2016/10/07
 ======================================================================
 - Find bug for map issue for showing pokemon & pokestop
-- Add image for 'lured' pokestop type and pokestop name 
+- Add image for 'lured' pokestop type and pokestop name
 - update pokestops detail (has lure) on background
 
 
